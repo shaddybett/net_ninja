@@ -21,6 +21,15 @@ class Home extends StatelessWidget {
         ),),
         centerTitle: true,
       ),
+      body: Column(
+        children: [
+          Text('NAME',
+          style: TextStyle(
+            color: Colors.grey,
+            letterSpacing: 2.0,
+          ),)
+        ],
+      ),
     );
   }
 }
