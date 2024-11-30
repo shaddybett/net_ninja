@@ -12,8 +12,14 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[900],
       appBar: AppBar(
-        title: Text('Ninja Id')
+        title: Text('Ninja Id',style: TextStyle(
+          color: Colors.grey[850],
+          fontFamily: 'PlayfairDisplay',
+          fontWeight: FontWeight.bold,
+        ),),
+        centerTitle: true,
       ),
     );
   }
