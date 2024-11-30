@@ -24,6 +24,7 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text('NAME',
           style: TextStyle(
