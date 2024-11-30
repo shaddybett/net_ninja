@@ -55,9 +55,22 @@ class Home extends StatelessWidget {
             fontWeight: FontWeight.bold,
             fontFamily: 'PlayfairDisplay'
           ),),
-          SizedBox(height: 30,)
+          SizedBox(height: 30.0),
+          Row(
+            children: [
+              Icon(Icons.mail,color: Colors.grey),
+              SizedBox(width: 10.0,),
+              Text('chun@gmail.com',style: TextStyle(
+                fontFamily: 'PlayfairDisplay',
+                color: Colors.white,
+                letterSpacing: 1.0,
+                fontSize: 18.0
+              ),)
+            ],
+          )
         ]
         ),
+        
       ),
     );
   }
