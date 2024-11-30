@@ -28,6 +28,16 @@ class Home extends StatelessWidget {
         child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          Center(
+            child: CircleAvatar(
+              backgroundImage: AssetImage('assets/assasin.png'),
+              radius: 40.0,
+            ),
+          ),
+          Divider(
+            height: 60.0,
+            color: Colors.grey[200],
+          ),
           Text('NAME',
           style: TextStyle(
             color: Colors.grey,
