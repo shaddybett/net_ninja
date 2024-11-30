@@ -14,8 +14,10 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[900],
       appBar: AppBar(
+        backgroundColor: Colors.grey[850],
+        elevation: 0.0,
         title: Text('Ninja Id',style: TextStyle(
-          color: Colors.grey[850],
+          color: Colors.grey,
           fontFamily: 'PlayfairDisplay',
           fontWeight: FontWeight.bold,
         ),),
@@ -27,6 +29,14 @@ class Home extends StatelessWidget {
           style: TextStyle(
             color: Colors.grey,
             letterSpacing: 2.0,
+          ),),
+          Text('Chun-Li',
+          style: TextStyle(
+            color: Colors.amberAccent[400],
+            letterSpacing: 2.0,
+            fontSize: 20.0,
+            fontWeight: FontWeight.bold,
+            fontFamily: 'PlayfairDisplay'
           ),)
         ],
       ),
