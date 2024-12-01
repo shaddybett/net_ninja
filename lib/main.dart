@@ -1,5 +1,4 @@
-import 'dart:io';
-
+// import 'dart:io';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -24,6 +23,9 @@ class Home extends StatelessWidget {
           fontWeight: FontWeight.bold,
         ),),
         centerTitle: true,
+      ),
+      floatingActionButton: FloatingActionButton(onPressed: () {},
+      child: Icon(Icons.add),
       ),
       body: Padding(
         padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
@@ -82,7 +84,6 @@ class Home extends StatelessWidget {
           )
         ]
         ),
-        
       ),
     );
   }
