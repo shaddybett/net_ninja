@@ -14,6 +14,7 @@ class Home extends StatefulWidget {
   State<Home> createState() => _HomeState();
 }
 class _HomeState extends State<Home> {
+  int ninjaLevel = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,7 +31,7 @@ class _HomeState extends State<Home> {
       ),
       floatingActionButton: FloatingActionButton(onPressed: () {
         setState(() {
-          
+          ninjaLevel += 1;
         });
       },
       child: Icon(Icons.add),
@@ -70,7 +71,7 @@ class _HomeState extends State<Home> {
             letterSpacing: 2.0
           ),),
           SizedBox(height: 10.0,),
-          Text('8',style: TextStyle(
+          Text('$ninjaLevel',style: TextStyle(
             color: Colors.amberAccent[400],
             letterSpacing: 2.0,
             fontSize: 20.0,
