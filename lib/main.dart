@@ -13,7 +13,6 @@ class Home extends StatefulWidget {
   @override
   State<Home> createState() => _HomeState();
 }
-
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
@@ -29,7 +28,11 @@ class _HomeState extends State<Home> {
         ),),
         centerTitle: true,
       ),
-      floatingActionButton: FloatingActionButton(onPressed: () {},
+      floatingActionButton: FloatingActionButton(onPressed: () {
+        setState(() {
+          
+        });
+      },
       child: Icon(Icons.add),
       ),
       body: Padding(
