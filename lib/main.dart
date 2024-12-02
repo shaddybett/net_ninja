@@ -123,6 +123,7 @@ class _QuotesState extends State<Quotes> {
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
         title: Text('Awesome Quotes'),
+        centerTitle: true,
       ),
     );
   }
