@@ -116,6 +116,7 @@ class Quotes extends StatefulWidget {
 }
 
 class _QuotesState extends State<Quotes> {
+  List<String> quotes=['Bird in hand is worth two in the bush','Be yourself, everyone else is taken!','I have nothing to declare except my genius'];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -125,6 +126,10 @@ class _QuotesState extends State<Quotes> {
         title: Text('Awesome Quotes',style: TextStyle(color: Colors.white)),
         centerTitle: true,
       ),
+      body: Column(
+        children: quotes.map((quotes) => Text(quotes)
+        ).toList()
+        ,),
     );
-  }
+  }   
 }
