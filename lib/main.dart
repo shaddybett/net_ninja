@@ -107,3 +107,23 @@ void main() {
     home: Quotes(),
   ));
 }
+
+class Quotes extends StatefulWidget {
+  const Quotes({super.key});
+
+  @override
+  State<Quotes> createState() => _QuotesState();
+}
+
+class _QuotesState extends State<Quotes> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.grey[200],
+      appBar: AppBar(
+        backgroundColor: Colors.blueAccent,
+        title: Text('Awesome Quotes'),
+      ),
+    );
+  }
+}
