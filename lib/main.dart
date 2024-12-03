@@ -127,6 +127,7 @@ class _QuotesState extends State<Quotes> {
         centerTitle: true,
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: quotes.map((quotes) => Text(quotes)
         ).toList()
         ,),
