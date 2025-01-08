@@ -73,7 +73,7 @@ assets:
 fonts:
   - family: IndieFlower
     fonts:
-      - asset: fonts/IndieFlower-Regular.ttf
+      - asset: fonts/Jersey15-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
