@@ -9,7 +9,7 @@ void main() => runApp(MaterialApp(
       backgroundColor: Colors.blue[400],
     ),
     body: Center(
-      child: Text('Hello ninjas',style: TextStyle(fontWeight: FontWeight.bold,letterSpacing: 2.0,fontSize: 10.0),),
+      child: Text('Hello ninjas',style: TextStyle(fontWeight: FontWeight.bold,letterSpacing: 2.0,fontSize: 10.0, fontFamily: 'IndieFlower'), ),
     ),
     floatingActionButton: FloatingActionButton(
       onPressed: ()=>{},
